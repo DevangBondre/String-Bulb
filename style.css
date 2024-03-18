@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    background-color: #475569;
+    padding: 0;
+    box-sizing: border-bo60
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.wire{
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 5px;
+    height: 60vh;
+    bottom: 50%;
+    background-color: black;
+    z-index: 1;
+}
+
+.bulb{
+    position: relative;
+    width: 85px;
+    height: 85px;
+    background-color: #444;
+    border-radius: 50%;
+    z-index: 2;
+}
